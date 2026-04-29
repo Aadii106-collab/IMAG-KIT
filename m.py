@@ -3,9 +3,9 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, filters, ContextTypes
 
 # ===== CONFIG =====
-BOT_TOKEN = "YOUR_BOT_TOKEN"
-IMAGEKIT_PRIVATE_KEY = "YOUR_PRIVATE_KEY"
-OWNER_ID = 123456789
+BOT_TOKEN = "8310284684:AAFPXMdzKU-4AN15-UGPBSjHyypz-J4pCZo"
+IMAGEKIT_PRIVATE_KEY = "private_mjbnXo/EWRRJCCfQLlGktAByjpU="
+OWNER_ID = 7512919724
 
 UPLOAD_URL = "https://upload.imagekit.io/api/v1/files/upload"
 start_time = time.time()
