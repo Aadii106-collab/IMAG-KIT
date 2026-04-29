@@ -3,7 +3,7 @@ from datetime import datetime
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
-AUTHORIZED_USER_ID = 123456789
+AUTHORIZED_USER_ID = 7512919724
 
 # 🎛️ UI
 keyboard = [
@@ -194,7 +194,7 @@ async def buttons(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await update_bot(update, context)
 
 # 🚀 RUN
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8472287791:AAEKJPXLNIMSAjg4vW1KSoEipfJ8n_NerSc").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("aadi", aadi))
